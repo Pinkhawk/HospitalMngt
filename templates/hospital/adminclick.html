@@ -1,0 +1,23 @@
+{% extends 'hospital/homebase.html' %}
+
+{% block content %}
+
+<br>
+<br>
+
+<center>
+    <img src="static/images/admin.jpg" alt="..." style="max-width: 99%; max-height: 300px;">
+</center>
+
+<div class="jumbotron" style="margin-bottom:0px;">
+  <h1 class="display-4" style="text-align:center;">Hello, Admin</h1>
+  <p class="lead">Welcome to Hospital Management System.</p>
+  <hr class="my-4">
+ 
+  <p class="lead">
+    <a class="btn btn-danger btn-lg" href="/adminsignup" role="button">Sign Up</a>
+    <a class="btn btn-success btn-lg" href="/adminlogin" role="button">Login</a>
+  </p>
+</div>
+
+{% endblock content %}
